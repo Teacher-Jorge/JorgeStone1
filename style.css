@@ -12,6 +12,7 @@ body {
     color: rgb(120, 187, 255);
     font-size: 50px;
     text-shadow: 1px 1px 1px black;
+    margin-top: 20px;
 }
 
 .instructions {
@@ -20,6 +21,10 @@ body {
     color: rgb(207, 0, 190);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.container {
+    margin-bottom: 50px;
 }
 
 .lines {
@@ -52,3 +57,47 @@ body {
     font-size: 25px;
     margin-right: 5px;
 }
+
+#picture1 {
+    display: grid;
+    position: absolute;
+    top: 120px;
+    left: 1400px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 2px black;
+     border-radius: 10px;
+}
+
+#picture2 {
+    display: grid;
+    position: absolute;
+    top: 390px;
+    left: 1400px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 2px black;
+     border-radius: 10px;
+}
+
+#picture3 {
+    display: grid;
+    position: absolute;
+    top: 660px;
+    left: 1400px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 3px black;
+     border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
